@@ -10,14 +10,20 @@ namespace DataTypes_Lib
         public static int Factorial(int n)
         {
 
-            int total = 1;
+            long total = 1;
 
             for (int i = 1; i <= n; i++)
             {
                 total *= i;
             }
 
-            return total;
+            //if (total > 1) 
+            //{
+            //    var res = (long)total;
+            //    return (int)res;
+            //}
+
+            return (int)total;
 
         }
 
