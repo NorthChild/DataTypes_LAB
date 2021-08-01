@@ -4,26 +4,22 @@ namespace DataTypes_Lib
 {
     public static class Methods
     {   
+            
+            // ALL DONE
             // DONE
 
         // write a method to return the product of all numbers from 1 to n inclusive
         public static int Factorial(int n)
         {
 
-            long total = 1;
+            int total = 1;
 
             for (int i = 1; i <= n; i++)
             {
                 total *= i;
             }
 
-            //if (total > 1) 
-            //{
-            //    var res = (long)total;
-            //    return (int)res;
-            //}
-
-            return (int)total;
+            return total;
 
         }
 
