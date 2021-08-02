@@ -9,10 +9,10 @@ namespace DataTypes_Lib
             // DONE
 
         // write a method to return the product of all numbers from 1 to n inclusive
-        public static int Factorial(int n)
+        public static long Factorial(int n)
         {
 
-            int total = 1;
+            long total = 1;
 
             for (int i = 1; i <= n; i++)
             {
